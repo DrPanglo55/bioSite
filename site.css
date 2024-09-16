@@ -1,11 +1,12 @@
-header {
-    text-align: center;
+.header {
+    text-align:center;
     font-weight: 700;
     background-color: blue;
     color: whitesmoke;
     font-size: x-large;
     font-family:monospace;
-    padding-top: 10px;
+    padding-top: 1px;
+    width: 100%;
 }
 img{
     max-width: 100%;
@@ -14,30 +15,58 @@ img{
 
 h1 {
     text-align: center;
+    background-color: crimson;
+}
+h2{
+    text-align: center;
+    background-color: chartreuse;
+    height:fit-content;
+    font-size: larger;
+    font-weight: 600;
+}
+#hcontainer{
+    display: flex;
+    
+}
+#childhood{
+    padding-right: 50%;
+}
+#mid-life{
+    
+    padding-block: 25%;
+}
+#retirement{
+    padding-block: 25%;
+}
+p{
+    padding-right: 50%;
+}
+img{
+    float:right;
+    padding-top: 25px;
 }
 #container{
-    max-width: 100%;
-    box-sizing: border-box;
-}
-h3{
-    padding-left: 10%;
-}
-ul{
-    padding-left: 10%;
-}
-
-
-.main{
-    text-align: center;
-    max-width: 70%;
-    padding: right 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    
+    
 
 }
+.container2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    
 
-
-.w3-card {
-    padding-left: 20px;
-    padding-top: 20px;
+}
+li{
+    font-weight: 700;
 }
 #navbar {
     overflow: hidden;
